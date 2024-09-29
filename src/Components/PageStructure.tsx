@@ -3,16 +3,20 @@ import React from 'react';
 // STYLE
 import './PageStructure.css';
 // COMPONENTS
-import Header from './Components/Header';
+import Header from './Header';
+// VIEWS
+import ViewTimeline from '../Views/ViewTimeline';
 
 
 const PageStructure = () => {
   return(
-    <body>
+    <section>
       <Header/>
-      <section> this is the body</section>
+      <section className='ViewBody'>
+        <ViewTimeline/>
+      </section>
       <footer> this is the footer</footer>
-    </body>
+    </section>
   )
 }
 

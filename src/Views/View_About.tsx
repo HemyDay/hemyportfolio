@@ -1,12 +1,12 @@
 // LIBRARIES
 import React from 'react';
 // STYLE
-import './View_Timeline.css';
+import './View_Home.css';
 // COMPONENTS
 
 
 
-const View_Timeline = () => {
+const View_Home = () => {
   return(
     <div>
       bonjour
@@ -15,4 +15,4 @@ const View_Timeline = () => {
 }
 
 
-export default View_Timeline;
+export default View_Home;
