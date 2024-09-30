@@ -18,8 +18,8 @@
 }
 
 .TimelineStudy > div , .TimelineWork > div {
-  font-size: 14px;
+  font-size: 12px;
   margin: 2px;
-  padding: 8px;
+  padding: 2px;
   border-radius: 5px;
 }
