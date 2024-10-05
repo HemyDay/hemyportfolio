@@ -6,16 +6,18 @@
 
 .HeaderButton:hover{
   cursor: pointer;
-  background-color: #FAF7F0;
+  background-color: #dfdace;
 }
 
 .HeaderButton > img {
   margin-right: 10px;
   height: 30px;
+  margin-left: auto;
 }
 
 .HeaderButton > span {
   font-size: 18px;
   height: min-content;
-  font-weight: bold;
+  width: fit-content;
+  margin-right: auto;
 }

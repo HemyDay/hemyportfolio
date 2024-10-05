@@ -4,26 +4,43 @@ import React from 'react';
 import './TimelineElement.css';
 // COMPONENTS
 
-const TimelineElement = (
-  start:number, 
-  end:number, 
-  title:string,
-  date:string,
-  location:string,
-  city:string,
-  type:'work'|'study'
-) => {
+const TimelineElement = (props:any) => {
   return(
     <div 
       className="TimelineElement" 
       style={{
-        gridRowStart:start, 
-        gridRowEnd:end, 
-        gridColumn:type === 'work' ? 1 : 3
+        gridRowStart:props.start, 
+        gridRowEnd:props.end, 
+        gridColumn:props.type === 'work' ? 3 : 1,
       }}
     >
-      DIPLOME DEV
+      <div className='title' style={{
+        borderTop:props.type === 'work' ? '4px solid #B17457' : ' 4px solid #86AB89',
+        gridTemplateColumns:props.type === 'work' ? '60px auto' : 'auto 60px'
+      }}
+      >
+        <h2 
+          style={{
+            gridRow:1,
+            gridColumn:props.type === 'work' ? 2 : 1,
+          }}>
+            {props.title}
+          </h2>
+        <span 
+          style={{
+            gridRow:1,
+            gridColumn:props.type === 'work' ? 1 : 2,
+            textAlign:props.type === 'work' ? "left" : "right",
+          }}>
+            {props.date}
+          </span>
       </div>
+      {/* <div>
+        <span >{props.city}</span>
+        <span >{props.location}</span>
+      </div> */}
+      
+    </div>
   )
 }
 

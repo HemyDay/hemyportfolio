@@ -1,3 +1,18 @@
 .TimelineElement {
-  border-top: solid 1px gray;
+  padding: 5px;
 }
+
+.title{
+  display: grid;
+  gap: 20px;
+  width: 100%;
+}
+
+.title > span {
+  font-size: 12px;
+}
+
+.title > h2 {
+  font-size: 16px;
+}
+
