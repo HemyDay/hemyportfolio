@@ -1,0 +1,10 @@
+.TimelineItem{
+  background-color: #FEFAF6;
+  border-radius: 5px;
+  padding: 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.TimelineItem > * {
+  margin: 0;
+  padding: 0;
+}

@@ -2,10 +2,14 @@
 import React from 'react';
 // STYLE
 import './App.css';
+// COMPONENTS
+import Timeline from './Pages/Timeline';
 
 const App = () => {
   return(
-    <section> bonjour </section>
+    <section className='PageBody'>
+      <Timeline />
+    </section>
   )
 }
 
