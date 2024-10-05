@@ -3,141 +3,141 @@
     "area":"degree",
     "type":"BAC+2",
     "title":"Titre Professionnel Développeur Web et Web Mobile",
-    "startDate":"2024-07",
+    "startDate":"Juill. 2024",
     "institution": "BeWeb | Fondespierre",
     "city": "Montpellier"
   },{
     "area":"study",
     "type":"Titre Profesionnel",
     "title":"Développeur Web et Web Mobile",
-    "startDate":"2023-09",
-    "endDate":"2024-06",
+    "startDate":"Sept. 2023",
+    "endDate":"Juill. 2024",
     "institution": "BeWeb | Fondespierre",
     "city": "Montpellier"
   },{
     "area":"work",
     "type":"Stage",
     "title":"Développeur Web",
-    "startDate":"2024-03",
-    "endDate":"2024-06",
+    "startDate":"Mars 2024",
+    "endDate":"Juin 2024",
     "institution": "WeGonRide",
     "city": "Remote"
   },{
     "area":"work",
     "type":"CDD",
     "title":"Assistante d'Education",
-    "startDate":"2024-01",
-    "endDate":"2024-07",
+    "startDate":"Janv. 2023",
+    "endDate":"Juill. 2023",
     "institution": "Collège de la Voie Domitienne",
     "city": "Le Crès"
   },{
     "area":"study",
     "type":"Master 1",
     "title":"Didactique du Français Langue Etrangère",
-    "startDate":"2022-09",
-    "endDate":"2022-12",
+    "startDate":"Sept. 2022",
+    "endDate":"Déc. 2022",
     "institution": "Université Paul Valéry Montpellier 3",
     "city": "Montpellier"
   },{
     "area":"work",
     "type":"CDD",
     "title":"Animatrice Périscolaire",
-    "startDate":"2022-09",
-    "endDate":"2022-12",
+    "startDate":"Sept. 2022",
+    "endDate":"Déc. 2022",
     "institution": "Mairie de Montpellier",
     "city": "Montpellier"
   },{
     "area":"study",
     "type":"Master 1",
     "title":"MEEF Professeur des Ecoles",
-    "startDate":"2021-09",
-    "endDate":"2022-06",
+    "startDate":"Sept. 2021",
+    "endDate":"Juin 2022",
     "institution": "Faculté d'Education",
     "city": "Montpellier"
   },{
     "area":"work",
     "type":"Stage",
     "title":"Professeur des Ecoles",
-    "startDate":"2022-04",
-    "endDate":"2022-05",
+    "startDate":"Avr. 2022",
+    "endDate":"Mai 2022",
     "institution": "Education Nationale",
     "city": "Assas"
   },{
     "area":"work",
     "type":"Stage",
     "title":"Professeur des Ecoles",
-    "startDate":"2021-10",
-    "endDate":"2021-11",
+    "startDate":"Oct. 2021",
+    "endDate":"Nov. 2021",
     "institution": "Education Nationale",
     "city": "Saint-Jean De Fos"
   },{
     "area":"degree",
     "type":"BAC+3",
     "title":"Licence Sciences du Langage pcs. CMM",
-    "startDate":"2021-07",
+    "startDate":"Juill. 2021",
     "institution": "Université Paul Valéry Montpellier 3",
     "city": "Montpellier"
   },{
     "area":"study",
     "type":"Licence 3",
-    "title":"Sciences du Langage pcs CMM",
-    "startDate":"2020-09",
-    "endDate":"2021-06",
+    "title":"Sciences du Langage pcs. CMM",
+    "startDate":"Sept. 2020",
+    "endDate":"Juin 2021",
     "institution": "Université Paul Valéry Montpellier 3",
     "city": "Montpellier"
   },{
     "area":"work",
     "type":"CDD",
     "title":"Animatrice Périscolaire",
-    "startDate":"2020-09",
-    "endDate":"2021-06",
+    "startDate":"Sept. 2020",
+    "endDate":"Juin 2021",
     "institution": "Mairie de Montpellier",
     "city": "Montpellier"
   },{
     "area":"study",
     "type":"Licence 2",
-    "title":"Sciences du Langage pcs CMM",
-    "startDate":"2019-09",
-    "endDate":"2020-06",
+    "title":"Sciences du Langage pcs. CMM",
+    "startDate":"Sept. 2019",
+    "endDate":"Juin 2020",
     "institution": "Université Paul Valéry Montpellier 3",
     "city": "Montpellier"
   },{
     "area":"study",
     "type":"Licence 1",
-    "title":"Sciences du Langage pcs CMM",
-    "startDate":"2015-09",
-    "endDate":"2020-06",
+    "title":"Sciences du Langage pcs. CMM",
+    "startDate":"Sept. 2015",
+    "endDate":"Juin 2020",
     "institution": "Université Paul Valéry Montpellier 3",
     "city": "Montpellier"
   },{
     "area":"work",
     "type":"CDD",
     "title":"Accompagnant des élèves en situation de handicap",
-    "startDate":"2018-09",
-    "endDate":"2019-07",
+    "startDate":"Sept. 2018",
+    "endDate":"Juill. 2019",
     "institution": "Educaiton Nationale",
     "city": "Montpellier"
   },{
     "area":"study",
-    "type":"Certificat de Qualification Professionnelle",
+    "type":"CQP",
     "title":"Animation Périscolaire",
-    "startDate":"2017-09",
-    "endDate":"2018-06",
+    "startDate":"Sept. 2017",
+    "endDate":"Juin 2017",
     "institution": "Les Francas",
     "city": "Montpellier"
   },{
     "area":"work",
     "type":"Stage",
     "title":"Animatrice Périscolaire",
-    "startDate":"2017-11",
-    "endDate":"2018-05",
+    "startDate":"Nov. 2017",
+    "endDate":"Mai. 2018",
     "institution": "La Gerbe",
     "city": "Montpellier"
   },{
     "area":"degree",
     "type":"BAC",
     "title":"Baccalauréat Littéraire",
-    "startDate":"2015-07",
+    "startDate":"Juill. 2015",
     "institution": "Lycée Albert Camus",
     "city": "Nîmes"
   }

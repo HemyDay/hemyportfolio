@@ -3,7 +3,7 @@ import React from "react";
 // STYLE
 import "./Timeline.css";
 // ASSETS
-import EXPERIENCES from "../Assets/experiences.json"
+import EXPERIENCES from "../Assets/Data/experiences.json"
 //COMPONENTS
 import TimelineItem from "../Components/TimelineItem";
 
