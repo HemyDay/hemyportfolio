@@ -1,0 +1,53 @@
+.Realisations{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+h3 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.parcoursItem, .projectItem {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.parcoursItem > .title , .projectItem > .projectName{ 
+  font-weight: bold;
+}
+
+.projectTechnologies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 4px;
+}
+
+.projectTechnologies > .technoItem{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+
+.technoItem {
+  background-color: rgb(228, 226, 226);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.technoItem > p {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.technoItem > .logo {
+  width: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}

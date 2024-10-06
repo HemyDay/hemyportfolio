@@ -4,11 +4,12 @@ import React from 'react';
 import './App.css';
 // COMPONENTS
 import Timeline from './Pages/Timeline';
+import QuickResume from './Pages/QuickResume';
 
 const App = () => {
   return(
     <section className='PageBody'>
-      <Timeline />
+      <QuickResume />
     </section>
   )
 }

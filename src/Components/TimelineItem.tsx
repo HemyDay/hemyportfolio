@@ -39,7 +39,7 @@ const TimelineItem = (props:any) => {
       <p className='institution'>{props.item.institution}</p>
       <p className='city' >{props.item.city}</p>
       
-      <p className="readMore">Voir plus</p>
+      {/* <p className="readMore">Voir plus</p> */}
       
     </div>
   )
