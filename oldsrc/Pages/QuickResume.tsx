@@ -12,6 +12,15 @@ import reactLogo from '../Assets/Logo/react-logo.svg';
 import mongodbLogo from '../Assets/Logo/mongodb-logo.svg';
 import wordpressLogo from '../Assets/Logo/wordpress-logo.svg';
 import typescriptLogo from '../Assets/Logo/typescript-logo.svg';
+import notionLogo from '../Assets/Logo/notion-logo.svg';
+import elementorLogo from '../Assets/Logo/elementor-logo.svg';
+import vuejsLogo from '../Assets/Logo/vuejs-logo.svg';
+import androidsudioLogo from '../Assets/Logo/androidstudio-logo.svg'
+import javascriptLogo from '../Assets/Logo/js-logo.svg'
+import figmaLogo from '../Assets/Logo/figma-logo.svg'
+import gitlabLogo from '../Assets/Logo/gitlab-logo.svg'
+import expressjsLogo from '../Assets/Logo/expressjs-logo.svg'
+import dockerLogo from '../Assets/Logo/docker-logo.svg'
 
 
 const QuickResume = () => {
@@ -44,22 +53,22 @@ const QuickResume = () => {
         <div className="projectTechnologies">
 
           <div className="technoItem"> 
-            <img className="logo" src={reactLogo}/>
+            <img className="logo" src={reactLogo} alt={'logo React'}/>
             <p>React</p>
           </div>
 
           <div className="technoItem"> 
-            <img className="logo" src={typescriptLogo}/>
+            <img className="logo" src={typescriptLogo} alt={'logo TypeScript'}/>
             <p>TypeScript</p>
           </div>
 
           <div className="technoItem"> 
-            <img className="logo" src={cssLogo}/>
+            <img className="logo" src={cssLogo} alt={'logo CSS'}/>
             <p>CSS</p>
           </div>
 
           <div className="technoItem"> 
-            <img className="logo" src={githubLogo}/>
+            <img className="logo" src={githubLogo} alt={'logo Github'}/>
             <p>GitHub</p>
           </div>
 
@@ -74,22 +83,22 @@ const QuickResume = () => {
         <div className="projectTechnologies">
 
           <div className="technoItem"> 
-            <img className="logo" src={reactLogo}/>
+            <img className="logo" src={reactLogo} alt={'logo React'}/>
             <p>React Native</p>
           </div>
           
           <div className="technoItem"> 
-            <img className="logo" src={mongodbLogo}/>
+            <img className="logo" src={mongodbLogo} alt={'logo MongoDB'}/>
             <p>Realm</p>
           </div>
 
           <div className="technoItem"> 
-            
+            <img className="logo" src={androidsudioLogo} alt={'logo Android Studio'}/>
             <p>Android Studio</p>
           </div>
 
           <div className="technoItem"> 
-            <img className="logo" src={githubLogo}/>
+            <img className="logo" src={githubLogo} alt={'logo GitHub'}/>
             <p>GitHub</p>
           </div>
 
@@ -104,17 +113,17 @@ const QuickResume = () => {
         <div className="projectTechnologies">
 
           <div className="technoItem"> 
-            <img className="logo" src={reactLogo}/>
+            <img className="logo" src={reactLogo} alt={'logo React'} />
             <p>React</p>
           </div>
 
           <div className="technoItem"> 
-            <img className="logo" src={cssLogo}/>
+            <img className="logo" src={cssLogo} alt={'logo CSS'}/>
             <p>CSS</p>
           </div>
 
           <div className="technoItem"> 
-            <img className="logo" src={githubLogo}/>
+            <img className="logo" src={githubLogo} alt={'logo GitHub'}/>
             <p>GitHub</p>
           </div>
 
@@ -129,32 +138,27 @@ const QuickResume = () => {
         <div className="projectTechnologies">
 
           <div className="technoItem"> 
-            <img className="logo" src={wordpressLogo}/>
+            <img className="logo" src={wordpressLogo} alt={'logo WordPress'}/>
             <p>WordPress</p>
           </div>
 
           <div className="technoItem"> 
-            
+            <img className="logo" src={elementorLogo} alt={'logo Elementor'}/>
             <p>Elementor</p>
           </div>
 
           <div className="technoItem"> 
-            <img className="logo" src={makeLogo}/>
+            <img className="logo" src={makeLogo} alt={'logo Make'}/>
             <p>Make</p>
           </div>
 
           <div className="technoItem"> 
-            
+            <img className="logo" src={notionLogo} alt={'logo Notion'}/>
             <p>Notion</p>
           </div>
 
           <div className="technoItem"> 
-            
-            <p>TypeForm</p>
-          </div>
-
-          <div className="technoItem"> 
-            
+            <img className="logo" src={figmaLogo} alt={'logo Figma'}/>
             <p>Figma</p>
           </div>
 
@@ -169,17 +173,17 @@ const QuickResume = () => {
         <div className="projectTechnologies">
 
           <div className="technoItem"> 
-            <img className="logo" src={reactLogo}/>
+            <img className="logo" src={reactLogo} alt={'logo React'}/>
             <p>React</p>
           </div>
 
           <div className="technoItem"> 
-            
+            <img className="logo" src={gitlabLogo} alt={'logo GitLab'}/>
             <p>GitLab</p>
           </div>
 
           <div className="technoItem"> 
-            
+            <img className="logo" src={figmaLogo} alt={'logo Figma'}/>
             <p>Figma</p>
           </div>
 
@@ -194,37 +198,37 @@ const QuickResume = () => {
         <div className="projectTechnologies">
 
           <div className="technoItem"> 
-            
+            <img className="logo" src={javascriptLogo} alt={'logo JavaScript'}/>
             <p>JavaScript</p>
           </div>
 
           <div className="technoItem"> 
-            <img className="logo" src={mongodbLogo}/>
+            <img className="logo" src={mongodbLogo} alt={'logo MongoDB'}/>
             <p>MongoDB</p>
           </div>
 
           <div className="technoItem"> 
-            <img className="logo" src={cssLogo}/>
+            <img className="logo" src={cssLogo} alt={'logo CSS'}/>
             <p>CSS</p>
           </div>
 
           <div className="technoItem"> 
-            
+            <img className="logo" src={vuejsLogo} alt={'logo Vue.js'}/>
             <p>Vue.js</p>
           </div>
 
           <div className="technoItem"> 
-            
+            <img className="logo" src={expressjsLogo} alt={'logo Express.js'}/>
             <p>Express.js</p>
           </div>
 
           <div className="technoItem"> 
-            
+            <img className="logo" src={dockerLogo} alt={'logo Docker'}/>
             <p>Docker</p>
           </div>
 
           <div className="technoItem"> 
-            
+            <img className="logo" src={figmaLogo} alt={'logo Figma'}/>
             <p>Figma</p>
           </div>
 
