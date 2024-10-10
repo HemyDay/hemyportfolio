@@ -1,6 +1,6 @@
 // LIBRARIES
-import React, { useState } from 'react';
-// STYLE
+import React from 'react';
+// STYLE 
 import './TimelineItem.css';
 
 // ASSETS

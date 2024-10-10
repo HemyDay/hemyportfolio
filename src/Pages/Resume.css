@@ -1,0 +1,21 @@
+.resume_title_and_icon {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap:10px;
+}
+
+.resume_icon {
+  display: inline-block;
+  aspect-ratio: 1 / 1 ;
+  height: 30px;
+}
+
+.resume_subtitle{
+  display: inline-block;
+}
+
+.resume_detail {
+  margin-left: 40px;
+  margin-top: 6px;
+  font-size:0.85rem
+}

@@ -1,5 +1,5 @@
 // LIBRARIES
-import React, { useState } from 'react';
+import React from 'react';
 // STYLE
 import './Home.css';
 // COMPONENTS
