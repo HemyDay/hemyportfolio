@@ -1,6 +1,7 @@
 .Header {
   background-color: black;
   padding-right: 40px;
+  padding-left: 40px;
 }
 
 .InnerHeader{
@@ -10,12 +11,27 @@
   margin-right: auto;
 }
 
-.Header > .InnerHeader > .icon {
-  margin-left: auto;
+.MainHeader{
+  display: grid;
+  grid-template-columns: auto 50px;
+}
+
+.Header > .InnerHeader > .MainHeader > span {
+  font-size: 1.5rem;
+  color:whitesmoke;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Header > .InnerHeader > .MainHeader >.icon {
+  margin-top: auto;
+  margin-bottom: auto;
   width: 50px;
   cursor: pointer;
 }
-
 
 .Header > .InnerHeader > .MenuLinks > a {
   color: whitesmoke;

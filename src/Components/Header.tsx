@@ -20,14 +20,16 @@ const Header = (props:any) => {
         }}
       > 
         <div className='InnerHeader'>
-          
+          <div className='MainHeader'>
+            <span>Amanda SIRE</span>
             <img 
               className='icon' 
               src={props.MENU_OPEN===true? close : hamburger } 
               alt={'Toggle menu'} 
               onClick={props.toggleMenu}
             />    
-
+          </div>
+            
           <div 
             className='MenuLinks' 
             style={{ 
@@ -37,7 +39,7 @@ const Header = (props:any) => {
             <a>Home</a>
             <a>Resume</a>
             <a>Timeline</a>
-            <a>Project</a>
+            <a>Projects</a>
             <a>About</a>
             <a>Contact</a>
           </div>

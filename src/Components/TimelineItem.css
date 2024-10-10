@@ -1,0 +1,58 @@
+
+.timeline_header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+}
+
+
+.timeline_header > .timeline_icon {
+  display: inline-block;
+  aspect-ratio: 1 / 1 ;
+  height: 30px;
+}
+
+.timeline_header > p {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.timeline_header > .timeline_endDate {
+  text-align: right;
+}
+
+.timeline_title {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.timeline_type {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+
+.timeline_footer {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.timeline_footer > p {
+  font-size: 0.7rem;
+}
+
+.timeline_city{
+  text-align: right;
+}

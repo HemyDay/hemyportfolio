@@ -4,6 +4,9 @@ import React, { useState } from 'react';
 import './App.css';
 // COMPONENTS
 import Header from './Components/Header';
+// PAGES
+import Timeline from './Pages/Timeline';
+import Resume from './Pages/Resume';
 
 const App = () => {
   const [MENU_OPEN, setMENU_OPEN] = useState(false);
@@ -22,9 +25,7 @@ const App = () => {
         display: MENU_OPEN===true? 'none' : 'block' 
       }}
     >  
-      <div> 
-        Hello World 
-      </div>  
+      <Resume/>
     </section>
 
   </>)
