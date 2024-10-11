@@ -16,6 +16,9 @@
 
 .resume_detail {
   margin-left: 40px;
+  margin-right: 25px;
   margin-top: 6px;
-  font-size:0.85rem
+  margin-bottom: 6px;
+  font-size:0.85rem;
+  text-align: justify;
 }
