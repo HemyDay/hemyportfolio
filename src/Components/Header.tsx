@@ -36,12 +36,10 @@ const Header = (props:any) => {
               display: props.MENU_OPEN===true? 'block' : 'none' 
             }}
           >
-            <a>Home</a>
-            <a>Resume</a>
-            <a>Timeline</a>
-            <a>Projects</a>
-            <a>About</a>
-            <a>Contact</a>
+            <a onClick={() => props.setCURRENT_PAGE(props.changePage("Resume"))}>Resume</a>
+            <a onClick={() => props.setCURRENT_PAGE(props.changePage("Timeline"))}>Timeline</a>
+            <a onClick={() => props.setCURRENT_PAGE(props.changePage("Projects"))}>Projects</a>
+            <a onClick={() => props.setCURRENT_PAGE(props.changePage("Contact"))}>Contact</a>
           </div>
 
         </div>
