@@ -63,8 +63,46 @@ const Resume = () => {
       <Container>
         <div className='resume_title_and_icon'>
           <img className='resume_icon' src={programming} alt={"programming icon"}/>
-          <h3 className='resume_subtitle'>Technos</h3>
+          <h3 className='resume_subtitle'>Technos & outils</h3>
         </div>
+        <h4 className='resume_subsubtitle'>Langages et technos</h4>
+        
+        <div className='techno_list'>
+          <p className='techno'>HTML</p>
+          <p className='techno'>CSS</p>
+          <p className='techno'>JavaScript</p>
+          <p className='techno'>React</p>
+          <p className='techno'>Node.js</p>
+          <p className='techno'>React Native</p>
+          <p className='techno'>Wordpress</p>
+          <p className='techno'>SQL</p>
+          <p className='techno'>MongoDB</p>
+        </div>
+          
+
+        <h4 className='resume_subsubtitle'>Outils</h4>
+        <div className='techno_list'>
+          <p className='techno'>Docker</p>
+          <p className='techno'>GitHub</p>
+          <p className='techno'>GitLab</p>
+          <p className='techno'>Jira</p>
+          <p className='techno'>VSCode</p>
+          <p className='techno'>Figma</p>
+          <p className='techno'>Android Studio</p>
+        </div>
+          
+
+        <h4 className='resume_subsubtitle'>Méthodes</h4>
+
+        <div className='techno_list'>
+          <p className='techno'>Agile</p>
+          <p className='techno'>Scrum</p>
+          <p className='techno'>Merise</p>
+          <p className='techno'>UML</p>
+          <p className='techno'>Kanban</p>
+          <p className='techno'>Tests unitaires</p>
+        </div>
+
       </Container>
 
       <Container>
