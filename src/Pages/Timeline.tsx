@@ -13,7 +13,7 @@ const Timeline = () => {
 
   return(
     <section >
-      <h1>Timeline</h1>
+      <h2>Timeline</h2>
       {
         EXPERIENCES.map(item => (
           <Container key={item.title}>

@@ -68,6 +68,7 @@ const Resume = () => {
         <h4 className='resume_subsubtitle'>Langages et technos</h4>
         
         <div className='techno_list'>
+          
           <p className='techno'>HTML</p>
           <p className='techno'>CSS</p>
           <p className='techno'>JavaScript</p>
