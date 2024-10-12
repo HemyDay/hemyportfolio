@@ -1,0 +1,27 @@
+.contact_title_and_icon {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap:10px;
+}
+
+.contact_icon {
+  display: inline-block;
+  aspect-ratio: 1 / 1 ;
+  height: 30px;
+}
+
+.contact_subtitle{
+  display: inline-block;
+}
+
+.contact_main_paragraph{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact_warning {
+  text-align: justify;
+  margin-top: 10px;
+  font-size: 0.7rem;
+}

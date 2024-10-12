@@ -10,13 +10,23 @@ import work from '../Assets/Icons/suitcase.svg'
 import programming from '../Assets/Icons/programming.svg'
 import language from '../Assets/Icons/speak.svg'
 import map from '../Assets/Icons/map.svg'
-import puzzle from '../Assets/Icons/puzzle.svg';
+import puzzle from '../Assets/Icons/puzzle.svg'
 import brain from '../Assets/Icons/brain.svg'
+import paint from '../Assets/Icons/paint.svg'
+import linkedin from '../Assets/Icons/linkedin.svg'
+import github from '../Assets/Icons/github.svg'
 
 const Resume = () => {
   return(
     <section>
       <h2>Développeuse Web & Mobile Full-Stack</h2>
+
+      <div className='social_media_display'>
+        <a href="https://www.linkedin.com/in/asiredev/"><img className='resume_icon social_media' src={linkedin} alt={"linkedin icon"}/></a>
+        
+        <a href="https://github.com/HemyDay"><img className='resume_icon social_media' src={github} alt={"github icon"}/></a>
+      </div>
+
       <Container>
         <div className='resume_title_and_icon'>
           <img className='resume_icon' src={puzzle} alt={"puzzle icon"}/>
@@ -144,6 +154,23 @@ const Resume = () => {
 
       </Container>
 
+      <Container>
+        <div className='resume_title_and_icon'>
+          <img className='resume_icon' src={paint} alt={"paint icon"}/>
+          <h3 className='resume_subtitle'>Centres d'intéret</h3>
+        </div>
+
+        <p className='resume_detail'>Bricolage, Woodworking, Arts créatifs</p>
+        <p className='resume_detail'>Jeux de mots et de logique (sudoku, mots fléchés)</p>
+        <p className='resume_detail'>Jeux de rôle, D&D</p>
+        <p className='resume_detail'>Jeux vidéos (gestion et simulation)</p>
+        <p className='resume_detail'>Culture internet</p>
+        <p className='resume_detail'>Psychologie, sociologie</p>
+        <p className='resume_detail'>Linguistique</p>
+        <p className='resume_detail'>Education</p>
+      </Container>
+
+      
     </section>
   )
 }
