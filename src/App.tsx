@@ -21,7 +21,7 @@ const App = () => {
       case 'Projects': setMENU_OPEN(false); return <Projects />;
       case 'Contact': setMENU_OPEN(false); return <Contact />;
       case 'Timeline': setMENU_OPEN(false); return <Timeline />;
-      default: return <Projects />;
+      default: return <Resume />;
     }
   }
 
