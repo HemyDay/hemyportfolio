@@ -1,0 +1,29 @@
+.project_header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project_type{
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.project-plateformes{
+  margin-top: 8px;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.project_icon {
+  height: 25px;
+  min-width: 25px;
+}
+
+h4{
+  margin-top: 10px;
+}
+
+.project_description , .project_challenge, .project_tools {
+  font-size: 0.8rem;
+  text-align: justify;
+}
